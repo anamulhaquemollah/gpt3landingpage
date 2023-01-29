@@ -1,0 +1,47 @@
+.gpt__possibility-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.gpt__possibility-image img{
+    max-width: 100%;
+}
+
+.gpt__possibility-details h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.early-request-para{
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+}
+
+@media screen and (max-width: 1090px){
+    .gpt__possibility-image img{
+        max-width: 80%;
+    }
+
+    .gpt__possibility-details h1{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media  screen and (max-width: 768px){
+    .gpt__possibility-container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 570px){}

@@ -1,0 +1,44 @@
+.gpt__article{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #042C54; */
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.gpt__article-image img{
+    width: 100%;
+    height: 100%;
+    background-color: #042C54;
+
+    border-radius: 10px;
+}
+
+.gpt__article-details{
+    padding: 1.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #042C54;
+
+    border-radius: 10px;
+}
+
+.gpt__article-details p{
+    font-weight: 700;
+    font-size: 11.649px;
+    line-height: 35px;
+}
+.gpt__article-details h1{
+    font-weight: 800;
+    font-size: 19.3154px;
+    line-height: 30px;
+}
+.gpt__article-details p{
+
+}

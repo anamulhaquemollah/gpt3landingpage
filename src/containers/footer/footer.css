@@ -1,0 +1,124 @@
+.gpt__footer{
+    background-color: #031B34;;
+}
+
+.gpt__footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    justify-content: center;
+    
+}
+
+.gpt__footer-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.gpt__footer-heading h1{
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    /* or 121% */
+
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.gpt__footer-heading__button{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21px;
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid white;
+
+}
+
+.gpt__footer-links-container{
+    display: flex;
+    
+}
+.gpt__footer-logo{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gpt__footer-logo img{
+    
+}
+.gpt__footer-logo p{
+    width: 180px;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.gpt__footer-links{
+    flex: 3;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gpt__footer-link-subsection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer__link ul li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.trademark{
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1090px){}
+
+@media  screen and (max-width: 768px){
+    .gpt__footer-heading h1{
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 55px;
+        /* or 121% */
+    
+        text-align: center;
+        letter-spacing: -0.04em;
+    }
+
+    .gpt__footer-container{
+        gap: 3rem;
+    }
+    .gpt__footer-links-container{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .gpt__footer-link-subsection{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 570px){}
